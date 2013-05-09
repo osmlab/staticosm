@@ -358,7 +358,7 @@ table {
   height: 15px;
   text-indent: -1000px;
   overflow: hidden;
-  background: image-url("sprite.png") 0 0 no-repeat;
+  background: url("../img/sprite.png") 0 0 no-repeat;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -410,7 +410,7 @@ table {
   width: 15px;
   height: 15px;
   border: 0px;
-  background: image-url("sprite.png") 0 -30px no-repeat;
+  background: url("../img/sprite.png") 0 -30px no-repeat;
   position: absolute;
   top: 8px;
   left: 17px;
@@ -1656,7 +1656,7 @@ a.button.submit {
       overflow-x: scroll;
 
       &.loading {
-        background-image: image-url("loading.gif");
+        background-image: url("../img/loading.gif");
         background-repeat: no-repeat;
         background-position: center;
       }
@@ -1745,7 +1745,7 @@ a.button.submit {
     left: 5px;
     min-width: 15px;
     min-height: 15px;
-    background: image-url("sprite.png") 0 -45px no-repeat;
+    background: url("../img/sprite.png") 0 -45px no-repeat;
   }
 
   .permalink span {
