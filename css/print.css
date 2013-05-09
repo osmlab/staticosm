@@ -1,0 +1,41 @@
+#small-title {
+  display: none;
+}
+
+#left {
+  display: none;
+}
+
+#greeting {
+  display: none;
+}
+
+#tabnav {
+  display: none;
+}
+
+#sidebar {
+  display: none;
+}
+
+#permalink {
+  display: none;
+}
+
+#editmenu {
+  display: none;
+}
+
+.leaflet-control {
+  display: none;
+}
+
+#map {
+  border: 1px solid black;
+  margin: auto !important;
+}
+
+#attribution {
+  font-size: 12px;
+  text-align: center;
+}

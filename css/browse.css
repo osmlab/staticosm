@@ -1,0 +1,143 @@
+.node { padding-left: 25px; }
+.way { padding-left: 25px; }
+.relation { padding-left: 25px; }
+
+.deleted { text-decoration: line-through; }
+
+/* Nodes (and ways as areas) */
+
+.aeroway.aerodrome { background: image-url('../img/browse/aerodrome.p.16.png') no-repeat center left; }
+
+.amenity.atm { background: image-url('../img/browse/atm2.p.16.png') no-repeat center left; }
+.amenity.bank { background: image-url('../img/browse/bank2.p.16.png') no-repeat center left; }
+.amenity.bar { background: image-url('../img/browse/bar.p.16.png') no-repeat center left; }
+.amenity.bicycle_parking { background: image-url('../img/browse/transport_parking_bicycle.p.16.png') no-repeat center left; }
+.amenity.bicycle_rental { background: image-url('../img/browse/transport_rental_bicycle.p.16.png') no-repeat center left; }
+.amenity.bus_station { background: image-url('../img/browse/bus_station.n.16.png') no-repeat center left; }
+.amenity.cafe { background: image-url('../img/browse/cafe.p.16.png') no-repeat center left; }
+.amenity.car_rental { background: image-url('../img/browse/transport_rental_car.p.16.png') no-repeat center left; }
+.amenity.car_sharing { background: image-url('../img/browse/car_share.p.16.png') no-repeat center left; }
+.amenity.cinema { background: image-url('../img/browse/cinema.p.16.png') no-repeat center left; }
+.amenity.dentist { background: image-url('../img/browse/health_dentist.p.16.png') no-repeat center left; }
+.amenity.doctors { background: image-url('../img/browse/health_doctors.p.16.png') no-repeat center left; }
+.amenity.drinking_water { background: image-url('../img/browse/drinkingtap.p.16.png') no-repeat center left; }
+.amenity.fast_food { background: image-url('../img/browse/fast_food.p.16.png') no-repeat center left; }
+.amenity.fire_station { background: image-url('../img/browse/firestation.p.16.png') no-repeat center left; }
+.amenity.fuel { background: image-url('../img/browse/fuel.p.16.png') no-repeat center left; }
+.amenity.hospital { background: image-url('../img/browse/hospital.p.16.png') no-repeat center left; }
+.amenity.library { background: image-url('../img/browse/library.p.16.png') no-repeat center left; }
+.amenity.nursery { background: image-url('../img/browse/education_nursery.p.16.png') no-repeat center left; }
+.amenity.parking { background: image-url('../img/browse/parking.p.16.png') no-repeat center left; }
+.amenity.pharmacy { background: image-url('../img/browse/pharmacy.p.16.png') no-repeat center left; }
+.amenity.place_of_worship { background: image-url('../img/browse/place_of_worship_unknown3.p.16.png') no-repeat center left; }
+.amenity.police { background: image-url('../img/browse/police.p.16.png') no-repeat center left; }
+.amenity.post_box { background: image-url('../img/browse/post_box.p.16.png') no-repeat center left; }
+.amenity.post_office { background: image-url('../img/browse/post_office.p.16.png') no-repeat center left; }
+.amenity.prison { background: image-url('../img/browse/prison.p.16.png') no-repeat center left; }
+.amenity.pub { background: image-url('../img/browse/pub.p.16.png') no-repeat center left; }
+.amenity.restaurant { background: image-url('../img/browse/restaurant.p.16.png') no-repeat center left; }
+.amenity.recycling { background: image-url('../img/browse/recycling.p.16.png') no-repeat center left; }
+.amenity.school { background: image-url('../img/browse/education_school.p.16.png') no-repeat center left; }
+.amenity.shelter { background: image-url('../img/browse/shelter2.p.16.png') no-repeat center left; }
+.amenity.telephone { background: image-url('../img/browse/telephone.p.16.png') no-repeat center left; }
+.amenity.theatre { background: image-url('../img/browse/theatre.p.16.png') no-repeat center left; }
+.amenity.toilets { background: image-url('../img/browse/toilets.p.16.png') no-repeat center left; }
+.amenity.university { background: image-url('../img/browse/education_university.p.16.png') no-repeat center left; }
+.amenity.veterinary { background: image-url('../img/browse/health_veterinary.p.16.png') no-repeat center left; }
+
+.barrier.gate { background: image-url('../img/browse/gate2.p.16.png') no-repeat center left; }
+
+.highway.bus_stop { background: image-url('../img/browse/bus_stop.p.16.png') no-repeat center left; }
+.highway.mini_roundabout { background: image-url('../img/browse/mini_round.p.16.png') no-repeat center left; }
+.highway.traffic_signals { background: image-url('../img/browse/traffic_light.png') no-repeat center left; }
+.highway.turning_circle { background: image-url('../img/browse/turning_circle.p.16.png') no-repeat center left; }
+
+.historic.castle { background: image-url('../img/browse/tourist_castle.p.16.png') no-repeat center left; }
+.historic.memorial { background: image-url('../img/browse/tourist_memorial.p.16.png') no-repeat center left; }
+.historic.monument { background: image-url('../img/browse/tourist_monument.p.16.png') no-repeat center left; }
+.historic.ruins { background: image-url('../img/browse/tourist_ruins.p.16.png') no-repeat center left; }
+.historic.wreck { background: image-url('../img/browse/tourist_wreck.p.16.png') no-repeat center left; }
+
+.man_made.lighthouse { background: image-url('../img/browse/lighthouse.p.16.png') no-repeat center left; }
+.man_made.windmill { background: image-url('../img/browse/tourist_windmill.p.16.png') no-repeat center left; }
+
+.natural.tree { background: image-url('../img/browse/tree.p.16.png') no-repeat center left; }
+
+.railway.halt { background: image-url('../img/browse/halt.p.16.png') no-repeat center left; }
+.railway.station { background: image-url('../img/browse/station.p.16.png') no-repeat center left; }
+.railway.level_crossing { background: image-url('../img/browse/level_crossing.p.16.png') no-repeat center left; }
+
+.shop { background: image-url('../img/browse/shop_convenience.p.16.png') no-repeat center left; }
+.shop.bakery { background: image-url('../img/browse/shop_bakery.p.16.png') no-repeat center left; }
+.shop.bicycle { background: image-url('../img/browse/shop_bicycle.p.16.png') no-repeat center left; }
+.shop.books { background: image-url('../img/browse/shop_books.p.16.png') no-repeat center left; }
+.shop.butcher { background: image-url('../img/browse/shop_butcher.p.16.png') no-repeat center left; }
+.shop.clothes { background: image-url('../img/browse/shop_clothes.p.16.png') no-repeat center left; }
+.shop.convenience { background: image-url('../img/browse/shop_convenience.p.16.png') no-repeat center left; }
+.shop.diy { background: image-url('../img/browse/shop_diy.p.16.png') no-repeat center left; }
+.shop.estate_agent { background: image-url('../img/browse/shop_estateagent2.p.16.png') no-repeat center left; }
+.shop.fish { background: image-url('../img/browse/shop_fish.p.16.png') no-repeat center left; }
+.shop.garden_centre { background: image-url('../img/browse/shop_garden_centre.p.16.png') no-repeat center left; }
+.shop.gift { background: image-url('../img/browse/shop_gift.p.16.png') no-repeat center left; }
+.shop.greengrocer { background: image-url('../img/browse/shop_greengrocer.p.16.png') no-repeat center left; }
+.shop.hairdresser { background: image-url('../img/browse/shop_hairdresser.p.16.png') no-repeat center left; }
+.shop.jewelry { background: image-url('../img/browse/shop_jewelry.p.16.png') no-repeat center left; }
+.shop.supermarket { background: image-url('../img/browse/shop_supermarket.p.16.png') no-repeat center left; }
+
+.tourism.alpine_hut { background: image-url('../img/browse/alpinehut.p.16.png') no-repeat center left; }
+.tourism.camp_site { background: image-url('../img/browse/camping.n.16.png') no-repeat center left; }
+.tourism.caravan_site { background: image-url('../img/browse/caravan_park.n.16.png') no-repeat center left; }
+.tourism.hostel { background: image-url('../img/browse/hostel.p.16.png') no-repeat center left; }
+.tourism.hotel { background: image-url('../img/browse/hotel.p.16.png') no-repeat center left; }
+.tourism.museum { background: image-url('../img/browse/museum.p.16.png') no-repeat center left; }
+.tourism.picnic_site { background: image-url('../img/browse/tourist_picnic.p.16.png') no-repeat center left; }
+.tourism.viewpoint { background: image-url('../img/browse/view_point.p.16.png') no-repeat center left; }
+
+/* Ways */
+
+.aeroway.runway { background: image-url('../img/browse/runway.20.png') no-repeat center left; }
+.aeroway.taxiway { background: image-url('../img/browse/taxiway.20.png') no-repeat center left; }
+
+.building { background: image-url('../img/browse/building.png') no-repeat center left; }
+
+.highway.bridleway { background: image-url('../img/browse/bridleway.20.png') no-repeat center left; }
+.highway.byway { background: image-url('../img/browse/byway.20.png') no-repeat center left; }
+.highway.cycleway { background: image-url('../img/browse/cycleway.20.png') no-repeat center left; }
+.highway.footway { background: image-url('../img/browse/footway.20.png') no-repeat center left; }
+.highway.motorway { background: image-url('../img/browse/motorway.20.png') no-repeat center left; }
+.highway.motorway_link { background: image-url('../img/browse/motorway.20.png') no-repeat center left; }
+.highway.pedestrian { background: image-url('../img/browse/service.20.png') no-repeat center left; }
+.highway.primary { background: image-url('../img/browse/primary.20.png') no-repeat center left; }
+.highway.primary_link { background: image-url('../img/browse/primary.20.png') no-repeat center left; }
+.highway.residential { background: image-url('../img/browse/unclassified.20.png') no-repeat center left; }
+.highway.secondary { background: image-url('../img/browse/secondary.20.png') no-repeat center left; }
+.highway.secondary_link { background: image-url('../img/browse/secondary.20.png') no-repeat center left; }
+.highway.service { background: image-url('../img/browse/service.20.png') no-repeat center left; }
+.highway.trunk { background: image-url('../img/browse/trunk.20.png') no-repeat center left; }
+.highway.trunk_link { background: image-url('../img/browse/trunk.20.png') no-repeat center left; }
+.highway.unclassified { background: image-url('../img/browse/unclassified.20.png') no-repeat center left; }
+
+.landuse.brownfield { background: image-url('../img/browse/brownfield.png') no-repeat center left; }
+.landuse.cemetery { background: image-url('../img/browse/cemetery.png') no-repeat center left; }
+.landuse.commercial { background: image-url('../img/browse/commercial.png') no-repeat center left; }
+.landuse.farm { background: image-url('../img/browse/farm.png') no-repeat center left; }
+.landuse.forest { background: image-url('../img/browse/forest.png') no-repeat center left; }
+.landuse.industrial { background: image-url('../img/browse/industrial.png') no-repeat center left; }
+.landuse.military { background: image-url('../img/browse/military.png') no-repeat center left; }
+.landuse.residential { background: image-url('../img/browse/residential.png') no-repeat center left; }
+.landuse.retail { background: image-url('../img/browse/retail.png') no-repeat center left; }
+.landuse.tourism { background: image-url('../img/browse/tourism.png') no-repeat center left; }
+.landuse.wood { background: image-url('../img/browse/wood.png') no-repeat center left; }
+
+.leisure.golf_course { background: image-url('../img/browse/golf.png') no-repeat center left; }
+.leisure.park { background: image-url('../img/browse/park.png') no-repeat center left; }
+.leisure.pitch { background: image-url('../img/browse/pitch.png') no-repeat center left; }
+.leisure.nature_reserve { background: image-url('../img/browse/reserve.png') no-repeat center left; }
+
+.natural.heath { background: image-url('../img/browse/heathland.png') no-repeat center left; }
+.natural.water { background: image-url('../img/browse/lake.png') no-repeat center left; }
+
+.railway.light_rail { background: image-url('../img/browse/light_rail.20.png') no-repeat center left; }
+.railway.rail { background: image-url('../img/browse/rail.20.png') no-repeat center left; }
+.railway.subway { background: image-url('../img/browse/subway.20.png') no-repeat center left; }
+.railway.tram { background: image-url('../img/browse/tram.20.png') no-repeat center left; }
